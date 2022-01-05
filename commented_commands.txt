@@ -13,7 +13,7 @@ switchport access vlan 10 = associar porta a VLAN
 swicthport mode access = força modo de acesso
 spanning-tree portfast = desativar STP
 
-*************Criação vlan - sw01******************************************************************************
+*************Criação VLAN - SW01******************************************************************************
 
 interface fa0/3
 **sh cdp neighbors = cisco discovery protocol
@@ -37,7 +37,7 @@ interface fa0/2
 swicthport mode access = força modo de acesso
 switchport access vlan 20 = associar porta a VLAN
 
-*************Criação vlan - sw02******************************************************************************
+*************Criação VLAN - SW02******************************************************************************
 
 Roteamento InterVLAN = Router on a stick
 
@@ -273,7 +273,7 @@ ip nat inside
 end
 *** ip nat translations
 
-*************EIGRP Rota Dinamica******************************************************************************
+*************EIGRP Rota Dinâmica******************************************************************************
 
 No R3:
 router ospf 1 = necessita concentração em area
@@ -313,5 +313,5 @@ permit 10.3.60.0 0.0.0.255
 permit 10.3.70.0 0.0.0.255
 end
 
-*************OSPF Rota Dinamica*******************************************************************************
+*************OSPF Rota Dinâmica*******************************************************************************
 
