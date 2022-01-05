@@ -13,7 +13,7 @@ switchport access vlan 10 = associar porta a VLAN
 swicthport mode access = força modo de acesso
 spanning-tree portfast = desativar STP
 
-*************Criação vlan - sw01********************************************************************************
+*************Criação vlan - sw01******************************************************************************
 interface fa0/3
 **sh cdp neighbors = cisco discovery protocol
 **sh cdp neighbors details
@@ -36,7 +36,7 @@ interface fa0/2
 swicthport mode access = força modo de acesso
 switchport access vlan 20 = associar porta a VLAN
 
-*************Criação vlan - sw02*******************************************************************************
+*************Criação vlan - sw02******************************************************************************
 
 Roteamento InterVLAN = Router on a stick
 
