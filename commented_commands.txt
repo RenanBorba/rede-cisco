@@ -14,6 +14,7 @@ swicthport mode access = força modo de acesso
 spanning-tree portfast = desativar STP
 
 *************Criação vlan - sw01******************************************************************************
+
 interface fa0/3
 **sh cdp neighbors = cisco discovery protocol
 **sh cdp neighbors details
@@ -313,3 +314,4 @@ permit 10.3.70.0 0.0.0.255
 end
 
 *************OSPF Rota Dinamica*******************************************************************************
+
