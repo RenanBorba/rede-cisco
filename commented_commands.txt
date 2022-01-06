@@ -101,9 +101,9 @@ switchport mode trunk
 end
 conf t
 int vlan 40
-ip address 10...
+ip address 10.2.40.1 255.255.255.0
 int vlan 50
-ip address 10...
+ip address 10.2.50.1 255.255.255.0
 
 *************Roteamento InterVLAN R2**************************************************************************
 
