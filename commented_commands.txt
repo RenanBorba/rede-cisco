@@ -1,6 +1,6 @@
 No SW01:
 en = habilita modo privilegiado
-**sh run (show) = mostra configurações atuais
+**sh run (show) = mostra configurações atuais/comandos rodados
 conf t (configure terminal) = configurações
 hostname SW01 = atribui nome p/ hostname
 end = finalizar processo
