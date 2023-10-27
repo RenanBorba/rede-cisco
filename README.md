@@ -1,7 +1,7 @@
 # Rede Cisco
 ### Rede Cisco no Simulador Cisco Packet Tracer
 
-Conteúdo foi desenvolvido no Curso Rede Cisco em 9 passos - O básico do CCNA do instrutor Vinicius Buscacio (Udemy), e abrange:
+Conteúdo abrange:
 
 - Criação de VLANs
 
